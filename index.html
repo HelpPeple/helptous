@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fonts/css/fontello.css">
+    <link rel="stylesheet" type="text/css" href="slider-pro.min.css" media="screen"/>
+<link rel="stylesheet" type="text/css" href="examples.css" media="screen"/>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'style="font-display: swap;">
+<link rel="stylesheet" href="modal.css">
+<script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="js/jquery.sliderPro.min.js"></script>
+
+    <title>Document</title>
+    <script type="text/javascript">
+      $( document ).ready(function( $ ) {
+        $( '#example3' ).sliderPro({
+          width: 960,
+          height: 500,
+          fade: true,
+          arrows: true,
+          buttons: false,
+          fullScreen: true,
+          shuffle: true,
+          smallSize: 500,
+          mediumSize: 1000,
+          largeSize: 3000,
+          thumbnailArrows: true,
+          autoplay: false
+        });
+      });
+    </script>
+</head>
+<body>
+   <header>
+       <div class="header_box">
+       <div class="header_logo">
+           <img class="logo" src="img/logo_icons.png" alt="">
+       </div>
+       <h3 class="header_text"><strong>"Каждый из нас может подарить надежду"</strong></h3>
+          <nav class="header_nav">
+            <ul class="header_list">
+                <li><a class="header_link" href="#galery" type="tel"><i class="icon-picture"></i> Галерея</a></li>
+                <li ><a class="header_link" href="#document"><i class="icon-address-card"></i> Документы</a></li>
+                <li ><a class="header_link" href="#cont"><i class="icon-phone"></i> Контакты</a></li>
+            </ul>
+          </nav>
+          <button class="header_link_pay" id="show-modal"><i class="icon-database"></i> Пожертвовать</button>
+          <script src="js/modal.js"></script>
+      <script>
+        (function () {
+            // создаём модальное окно
+            var modal = $modal();
+            // при клике по кнопке #show-modal
+            document.querySelector('#show-modal').addEventListener('click', function () {
+                // отобразим модальное окно
+                modal.show();
+            });
+        })();
+    </script>
+          </div>
+   </header>
+        <main>
+            <div class="content" id="top">
+                <div class="main_box1">
+                    <div class="main_title _anim_items">
+                        <img class="sos" src="img/1-19_icon-icons.com_68848.svg" alt="">
+                        <h1 class="title _anim_items" id="blink1">
+                          
+                         Мы нуждаемся<br> в вашей помощи!
+                        </h1>
+                        <p class="text _anim_items">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ullam aliquid totam tempore. Laboriosam iure, quas sunt totam tempora ea nesciunt consequatur facere recusandae ipsum labore blanditiis illum non architecto veniam dicta velit. At, sed praesentium. Quas, molestias eum? Maiores delectus asperiores dolor et voluptates vero saepe modi nobis quod.
+                        </p>
+                    </div>
+                   
+                </div>
+
+                <div class="main_box2" id="form">
+                    <div class="container">
+
+                        <div class="slider" data-slider="chiefslider">
+                        
+                          <div class="slider__container">
+                            <div class="container_num _anim_items">          
+                              <div class="row row-ach">
+                                <div class="col-3">
+                                  <div class="ach-number"><span>1566</span>,<span>0</span> грн</div>
+                                  <div class="ach-note">Собрано</div>
+                                </div>
+                            
+                                <div class="col-3">
+                                  <div class="ach-number"><span>138</span></div>
+                                  <div class="ach-note">Пожертвований</div>
+                                </div>
+                            
+                                <div class="col-3">
+                                  <div class="ach-number"><span>100</span>000 грн</div>
+                                  <div class="ach-note">Нужная сумма</div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="slider__wrapper">
+                              <div class="slider__items">
+                                <div class="slider__item">
+                                  <div class="slider__item-container">
+                                    <div class="slider__item-content">1</div>
+                                  </div>
+                                </div>
+                                <div class="slider__item">
+                                  <div class="slider__item-container">
+                                    <div class="slider__item-content">2</div>
+                                  </div>
+                                </div>
+                                <div class="slider__item">
+                                  <div class="slider__item-container">
+                                    <div class="slider__item-content">2</div>
+                                  </div>
+                                </div>
+                                <div class="slider__item">
+                                  <div class="slider__item-container">
+                                  <div class="slider__item-content">2</div>
+                                  </div>
+                                </div>
+                                <div class="slider__item">
+                                  <div class="slider__item-container">
+                                    <div class="slider__item-content">2</div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <a href="#" class="slider__control" data-slide="prev"></a>
+                          <a href="#" class="slider__control" data-slide="next"></a>
+                          <ol class="slider__indicators">
+                            <li data-slide-to="0"></li>
+                            <li data-slide-to="1"></li>
+                            <li data-slide-to="2"></li>
+                            <li data-slide-to="3"></li>
+                            <li data-slide-to="4"></li>
+                          </ol>
+                        </div>
+                    
+                      </div>
+                      </div>
+
+             <div class="main_box3 _anim_items">
+                 
+                    <form class="decor"  >
+                        <div class="form-left-decoration"></div>
+                        <div class="form-right-decoration"></div>
+                        <div class="circle"></div>
+                        <div class="form-inner">
+                        <h3>Пожертвование</h3>
+                        <input type="text" placeholder="Имя">
+                        <input type="text" placeholder="Фамилия">
+                        <input type="number" placeholder="Сумма">
+                        <input type="email" placeholder="Email">
+                        <textarea placeholder="Пожелания..." rows="3"></textarea>
+                        <input type="submit"class="icon-database" value="Пожертвовать">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <section class="galery_content" id="galery">
+              <div class="galery_items  _anim_items">     
+                <div class="galery_item">
+                  <img src="img/24PrettiestBaby.jpg" alt="">
+                </div>
+                <div class="galery_item  _anim_items">
+                  <img src="img/Buscador.jpg" alt="">
+                </div>
+                <div class="galery_item  _anim_items">
+                  <img src="img/Sundown Crib Sheet.png" alt="">
+                </div>
+                <div class="galery_item  _anim_items">
+                  <img src="img/Buscador.jpg" alt="">
+                </div>
+                <div class="galery_item galery_item_big  _anim_items">
+                  <img src="img/Sundown Crib Sheet.png" alt="">
+                </div>
+                <div class="galery_item galery_item_big  _anim_items">
+                  <img src="img/Buscador.jpg" alt="">
+                </div>
+                <div class="galery_item  _anim_items">
+                  <img src="img/24PrettiestBaby.jpg" alt="">
+                </div>
+                <div class="galery_item _anim_items">
+                  <img src="img/Buscador.jpg" alt="">
+                </div>
+                <div class="galery_item  _anim_items">
+                  <img src="img/Sundown Crib Sheet.png" alt="">
+                </div>
+                <div class="galery_item  _anim_items">
+                  <img src="img/Buscador.jpg" alt="">
+                </div>
+              </div>
+            </section>
+            <section class="document" id="document">
+              <div id="example3" class="slider-pro">
+                <div class="sp-slides">
+                  <div class="sp-slide">
+                    <img class="sp-image" src="img/24PrettiestBaby.jpg" >
+                      
+            
+                    <p class="sp-layer sp-white sp-padding"
+                      data-horizontal="50" data-vertical="50"
+                      data-show-transition="left" data-show-delay="400">
+                      Lorem ipsum
+                    </p>
+            
+                    <p class="sp-layer sp-black sp-padding"
+                      data-horizontal="180" data-vertical="50"
+                      data-show-transition="left" data-show-delay="600">
+                      dolor sit amet
+                    </p>
+            
+                    <p class="sp-layer sp-white sp-padding"
+                      data-horizontal="315" data-vertical="50"
+                      data-show-transition="left" data-show-delay="800">
+                      consectetur adipisicing elit.
+                    </p>
+                  </div>
+            
+                      <div class="sp-slide">
+                        <img class="sp-image" src="img/Buscador.jpg" >
+                      
+          
+                    <h3 class="sp-layer sp-black sp-padding" 
+                      data-horizontal="40" data-vertical="40" 
+                      data-show-transition="left">
+                      Lorem ipsum dolor sit amet
+                    </h3>
+            
+                    <p class="sp-layer sp-white sp-padding" 
+                      data-horizontal="40" data-vertical="100" 
+                      data-show-transition="left" data-show-delay="200">
+                      consectetur adipisicing elit
+                    </p>
+            
+                    <p class="sp-layer sp-black sp-padding" 
+                      data-horizontal="40" data-vertical="160" data-width="350" 
+                      data-show-transition="left" data-show-delay="400">
+                      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                  </div>
+            
+                  <div class="sp-slide">
+                    <img class="sp-image" src="img/unnamed.jpg" 
+                      />
+            
+                    <p class="sp-layer sp-white sp-padding" 
+                      data-position="centerCenter" data-vertical="-50" 
+                      data-show-transition="right" data-show-delay="500" >
+                      Lorem ipsum dolor sit amet
+                    </p>
+            
+                    <p class="sp-layer sp-black sp-padding" 
+                      data-position="centerCenter" data-vertical="50" 
+                      data-show-transition="left" data-show-delay="700">
+                      consectetur adipisicing elit
+                    </p>
+                  </div>
+            
+                  <div class="sp-slide">
+                    <img class="sp-image" src="img/baby-sleep-position-1538650093.jpg" 
+                    >
+            
+                    <p class="sp-layer sp-black sp-padding"
+                      data-position="bottomLeft" data-vertical="0" data-width="100%"
+                      data-show-transition="up">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                  </div>
+            
+                  <div class="sp-slide">
+                    <img class="sp-image" src="img/scaled.jpg" 
+                      >
+            
+                    <p class="sp-layer sp-white sp-padding" 
+                      data-vertical="5%" data-horizontal="5%" data-width="90%" 
+                      data-show-transition="down" data-show-delay="400">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                  </div>
+            
+                  <div class="sp-slide">
+                    <img class="sp-image" src="img/doc-1.png" 
+                      >
+            arge.jpg
+                    <p class="sp-layer sp-white sp-padding" 
+                      data-horizontal="10" data-vertical="10" data-width="300">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                  </div>
+            
+                  <div class="sp-slide">
+                    <img class="sp-image" src="img/doc-3.jpg" 
+                     >
+            
+                    <p class="sp-layer sp-black sp-padding" 
+                      data-position="bottomLeft" data-horizontal="5%" data-vertical="5%" data-width="90%" 
+                      data-show-transition="up" data-show-delay="400">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                  </div>
+            
+                </div>
+            
+                <div class="sp-thumbnails ">
+                  <img class="sp-thumbnail" src="img/24PrettiestBaby.jpg"/>
+                  <img class="sp-thumbnail" src="img/Buscador.jpg"/>
+                  <img class="sp-thumbnail" src="img/unnamed.jpg"/>
+                  <img class="sp-thumbnail" src="img/baby-sleep-position-1538650093.jpg"/>
+                  <img class="sp-thumbnail" src="img/scaled.jpg"/>
+                  <img class="sp-thumbnail" src="img/doc-1.png"/>
+                  <img class="sp-thumbnail" src="img/doc-3.jpg"/>
+                 
+                </div>
+                </div>
+            
+            </section>
+            <div class="text_comets">
+            <section class="bock_text">
+              <h2 class="title_paren  _anim_items">Lorem ipsum dolor sit.</h2>
+              <div class="text_grid">
+              <div class="text_contain">
+              <p class="low_text  _anim_items"><img class="parents  _anim_items" src="img/detey_1.jpg" alt="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quod aliquid accusamus ex facere earum accusantium, asperiores non? Officia harum, ratione illo commodi molestiae odio? .Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum modi nihil rem cum et vero id quo veniam sapiente dolorem, facere tempora, repellat nobis fugit! Quod quasi eum, quaerat nemo ad quia cum temporibus eveniet delectus, enim recusandae ullam quas laboriosam at doloribus incidunt ea, dolor unde officiis. Neque, iste?</p>
+             <p class="min_text _anim_items">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi perferendis cum possimus cupiditate itaque deserunt, in esse quibusdam, minus, mollitia enim tempora adipisci? Autem fugit blanditiis nisi. Praesentium sequi quod ratione dolor iure! Consequuntur vitae voluptatibus corrupti, quo numquam ipsam molestiae voluptates debitis odio exercitationem eligendi non saepe nostrum quod?</p>
+            </div>
+              <div class="text_contain">
+                <p class="low_text  _anim_items"><img class="parents  _anim_items" src="img/detey_1.jpg" alt="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quod aliquid accusamus ex facere earum accusantium, asperiores non? Officia harum, ratione illo commodi molestiae odio? .Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum modi nihil rem cum et vero id quo veniam sapiente dolorem, facere tempora, repellat nobis fugit! Quod quasi eum, quaerat nemo ad quia cum temporibus eveniet delectus, enim recusandae ullam quas laboriosam at doloribus incidunt ea, dolor unde officiis. Neque, iste?</p>
+                <p class="min_text _anim_items">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi perferendis cum possimus cupiditate itaque deserunt, in esse quibusdam, minus, mollitia enim tempora adipisci? Autem fugit blanditiis nisi. Praesentium sequi quod ratione dolor iure! Consequuntur vitae voluptatibus corrupti, quo numquam ipsam molestiae voluptates debitis odio exercitationem eligendi non saepe nostrum quod?</p>
+              </div>
+             </div>
+            </section>
+            <section class="coments">
+                    <h2 class="coment_title">Спасибо за ваши пожелания!</h2>
+                <div class="comment">
+                  <div class="comment_bubble _anim_items">
+                    <p class="comment_text"><img src="img/1551511784_4.jpg" alt="">Porro officia cumque sint deleniti nemo facere rem vitae odit inventore cum odio, iste quia doloribus autem aperiam nulla ea neque reprehenderit. Libero doloribus, possimus officiis sapiente necessitatibus commodi consectetur?</p>
+                    <p class="author">Lourens S.</p>
+                    </div>
+                    <div class="comment_bubble_right _anim_items">
+                      <p class="comment_text"><img src="img/1551511784_4.jpg" alt="">Porro officia cumque sint deleniti nemo facere rem vitae odit inventore cum odio, iste quia doloribus autem aperiam nulla ea neque reprehenderit. Libero doloribus, possimus officiis sapiente necessitatibus commodi consectetur?</p>
+                      <p class="author">Lourens S.</p>
+                      </div>
+                      <div class="comment_bubble _anim_items">
+                        <p class="comment_text"><img src="img/1551511784_4.jpg" alt="">Porro officia cumque sint deleniti nemo facere rem vitae odit inventore cum odio, iste quia doloribus autem aperiam nulla ea neque reprehenderit. Libero doloribus, possimus officiis sapiente necessitatibus commodi consectetur?</p>
+                        <p class="author">Lourens S.</p>
+                        </div>
+                        <div class="comment_bubble_right _anim_items">
+                          <p class="comment_text"><img src="img/1551511784_4.jpg" alt="">Porro officia cumque sint deleniti nemo facere rem vitae odit inventore cum odio, iste quia doloribus autem aperiam nulla ea neque reprehenderit. Libero doloribus, possimus officiis sapiente necessitatibus commodi consectetur?</p>
+                          <p class="author">Lourens S.</p>
+                          </div>
+                          <div class="comment_bubble _anim_items">
+                            <p class="comment_text"><img src="img/1551511784_4.jpg" alt="">Porro officia cumque sint deleniti nemo facere rem vitae odit inventore cum odio, iste quia doloribus autem aperiam nulla ea neque reprehenderit. Libero doloribus, possimus officiis sapiente necessitatibus commodi consectetur?</p>
+                            <p class="author">Lourens S.</p>
+                            </div>
+                            <div class="comment_bubble_right _anim_items">
+                              <p class="comment_text"><img src="img/1551511784_4.jpg" alt="">Porro officia cumque sint deleniti nemo facere rem vitae odit inventore cum odio, iste quia doloribus autem aperiam nulla ea neque reprehenderit. Libero doloribus, possimus officiis sapiente necessitatibus commodi consectetur?</p>
+                              <p class="author">Lourens S.</p>
+                              </div>
+                 
+              </div>
+            </section>
+          </div>
+          
+        </main>
+
+ <footer class="footer" id="cont">
+   <div class="footer_container">
+     <img src="img/logo_icons.png" alt="" class="logo_foot">
+     <ul class="contacts">
+       <li class="link"><a href="#"><i class="icon-facebook"></i><span>Facebook</span></a></li>
+       <li class="link"><a href="#"><i class="icon-vkontakte"></i><span>Вконтакте</span></a></li>
+       <li class="link"><a href="mail:ask@htmlbook.ru"><i class="icon-email"></i><span>hdhhh@jdh.yd</span></a></li>
+       <li class="link"><a href="tel:0433434344"><i class="icon-phone"></i><span>364647774777</span></a></li>
+     </ul>
+     <ul class="navigation">
+       <li class="link"><a href="#top">Начало</a></li>
+       <li class="link"><a href="#form">Пожертвовать</a></li>
+       <li class="link"><a href="#galery">Галерея</a></li>
+       <li class="link"><a href="#documents">Документы</a></li>
+     </ul>
+     <div class="recvi">
+       <p><i class="icon-cc-visa"></i> Реквизиты:<br> 4434 4446 4443 4444</p>
+      <a class="header_link_pay" href="#form"><i class="icon-database"></i> Пожертвовать</a>
+     </div>
+    
+   </div>
+ </footer>
+ <script src="js/chiefslider.js"></script>
+ <script src="js/main.js"></script>
+
+ <script>
+   const $slider = document.querySelector('[data-slider="chiefslider"]');
+   const slider = new ChiefSlider($slider, {
+     loop: true,
+     autoplay: true,
+     interval: 5000,
+   });
+ </script>
+</body>
+</html>
